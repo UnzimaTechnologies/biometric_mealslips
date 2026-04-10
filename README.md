@@ -57,8 +57,8 @@ cp config.example.env .env
 Run both services:
 Bashpython main_receiver.py   # Terminal 1
 python main_printer.py    # Terminal 2
-
-🛠️ Developer / Technical Notes
+```
+## 🛠️ Developer / Technical Notes
 
 Two independent services:
 main_receiver.py – Receives HikCentral events and calls sp_InsertAttLog
@@ -69,7 +69,7 @@ Printers identified by shared name (Windows) or CUPS queue name (Linux)
 Logging to logs/mealslip.log
 
 
-📋 Configuration
+## 📋 Configuration
 Copy config.example.env → .env and update:
 
 Database credentials
@@ -77,7 +77,7 @@ DEVICE_PRINT_POLICY_SERIAL (canteen device serials)
 DEVICE_PRINT_POLICY_NAME (fallback device names)
 
 
-📦 Deployment
+## 📦 Deployment
 Linux (systemd)
 Bashsudo cp linux_service/*.service /etc/systemd/system/
 sudo systemctl daemon-reload
@@ -85,7 +85,7 @@ sudo systemctl enable --now mealslip-receiver mealslip-printer
 Windows
 Use NSSM or install via windows_services.py (available on request).
 
-🔧 HikCentral Setup
+## 🔧 HikCentral Setup
 
 Configuration → Event → Notification → Add
 Set:
@@ -95,7 +95,7 @@ Event Type: AcsEvent
 
 
 
-📜 License
+## 📜 License
 This software is proprietary and licensed under the End User License Agreement (EULA).
 Commercial use, redistribution, or deployment outside of Trident College / Educore Services is strictly prohibited without written permission from Unzima Technologies.
 
