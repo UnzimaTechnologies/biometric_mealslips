@@ -1,3 +1,6 @@
+
+<img src="assets/boys_canteen_biometric_scan.gif">
+
 # Biometric MealSlips
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
