@@ -1,4 +1,4 @@
-Markdown# Biometric MealSlips
+# Biometric MealSlips
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-green)
