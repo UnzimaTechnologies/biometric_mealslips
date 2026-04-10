@@ -1,0 +1,14 @@
+[Unit]
+Description=Trident College Meal Slip Printer
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/trident-mealslip-printer
+ExecStart=/opt/trident-mealslip-printer/venv/bin/python main_printer.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

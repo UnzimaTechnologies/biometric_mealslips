@@ -1,3 +1,6 @@
+
+<img src="assets/boys_canteen_biometric_scan.gif">
+
 # Biometric MealSlips
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
@@ -103,6 +106,6 @@ Commercial use, redistribution, or deployment outside of Trident College / Educo
 Unzima Technologies
 A subsidiary of Unzima Investments
 Lusaka, Zambia
-For support or modifications, contact your project manager.
+For support or modifications, contact project manager.
 
 © 2024 Unzima Technologies. All Rights Reserved.
