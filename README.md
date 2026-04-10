@@ -103,6 +103,6 @@ Commercial use, redistribution, or deployment outside of Trident College / Educo
 Unzima Technologies
 A subsidiary of Unzima Investments
 Lusaka, Zambia
-For support or modifications, contact your project manager.
+For support or modifications, contact project manager.
 
 © 2024 Unzima Technologies. All Rights Reserved.

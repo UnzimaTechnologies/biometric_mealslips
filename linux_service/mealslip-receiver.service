@@ -1,0 +1,14 @@
+[Unit]
+Description=Trident College Hikvision Event Receiver
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/trident-mealslip-printer
+ExecStart=/opt/trident-mealslip-printer/venv/bin/python main_receiver.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
